@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-night-950 text-mystic-gray font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-mystic-purple to-mystic-turquoise hover:from-mystic-purple/90 hover:to-mystic-turquoise/90 text-night-950 font-bold py-4 px-8 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl animate-neon-glow;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-night-800 to-night-900 hover:from-night-700 hover:to-night-800 text-mystic-gray font-semibold py-3 px-6 rounded-xl shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg;
+  }
+  
+  .modal-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-90 backdrop-blur-sm z-50;
+  }
+  
+  .modal-content {
+    @apply bg-night-900 rounded-3xl shadow-2xl;
+  }
+}
