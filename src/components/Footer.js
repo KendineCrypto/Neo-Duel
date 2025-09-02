@@ -100,7 +100,7 @@ function Footer() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2 }}
             >
-              Powered by <span className="text-arcane-purple font-semibold">KendineCrypto_</span> & <span className="text-arcane-gold font-semibold">KriptoAlimi</span>
+              Powered by <span className="text-arcane-purple font-semibold">KendineCrypto_</span> & <span className="text-arcane-gold font-semibold">KriptoAlimi_</span>
             </motion.div>
           </motion.div>
         </div>
